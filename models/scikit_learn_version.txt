@@ -1,0 +1,4 @@
+# This file records the scikit-learn version used to train and save the model.
+# It is used for compatibility checking in the Flask app.
+
+1.7.2

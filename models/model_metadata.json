@@ -1,0 +1,32 @@
+{
+  "project": "Solar Energy Potential Prediction - SDG 7",
+  "best_model": "Random Forest (Tuned)",
+  "training_date": "2025-10-19T12:29:24.609729",
+  "dataset_size": 2000,
+  "features_count": 13,
+  "performance_metrics": {
+    "mae": 14.504366170649416,
+    "rmse": 25.68832725530559,
+    "r2_score": 0.9326787575683188
+  },
+  "feature_importance_top3": [
+    {
+      "feature": "solar_elevation_proxy",
+      "importance": 0.8532822626702461
+    },
+    {
+      "feature": "cloud_cover",
+      "importance": 0.12573173075960678
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.004179718734678063
+    }
+  ],
+  "optimal_conditions": {
+    "temperature": 26.367597972204653,
+    "humidity": 60.723084786336855,
+    "cloud_cover": 19.45249479066381,
+    "wind_speed": 7.224201969761916
+  }
+}

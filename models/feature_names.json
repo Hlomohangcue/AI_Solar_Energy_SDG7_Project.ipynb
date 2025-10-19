@@ -1,0 +1,15 @@
+[
+  "temperature",
+  "humidity",
+  "cloud_cover",
+  "wind_speed",
+  "pressure",
+  "solar_elevation_proxy",
+  "is_daytime",
+  "season",
+  "hour_sin",
+  "hour_cos",
+  "month_sin",
+  "month_cos",
+  "temp_humidity_interaction"
+]

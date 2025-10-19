@@ -1,0 +1,39 @@
+
+SLIDE 1: Title & Problem (30 seconds)
+• "Predicting Solar Energy Potential for SDG 7"
+• Problem: Solar deployment needs accurate energy forecasts
+• Solution: ML model predicts irradiance from weather data
+
+SLIDE 2: Data & Approach (45 seconds)
+• Dataset: 2000 weather samples with 13 features
+• Target: Solar irradiance (W/m²)
+• Approach: Supervised learning with 3 regression models
+• Show: EDA visualizations (hourly/monthly patterns)
+
+SLIDE 3: Model Performance (60 seconds)
+• Compared: Linear Regression, Random Forest, Gradient Boosting
+• Winner: Random Forest (Tuned)
+• Results: MAE = 14.50 W/m², R² = 0.9327
+• Show: Model comparison chart, actual vs predicted plot
+
+SLIDE 4: Key Insights (60 seconds)
+• Top 3 factors: Solar elevation, cloud cover, temperature
+• Optimal: Summer months, midday hours, <20% cloud cover
+• Impact: 155.95 kWh/year per panel, ${:.2f} savings
+• Show: Feature importance chart
+
+SLIDE 5: Real-World Impact (45 seconds)
+• Energy: Powers households with clean energy
+• Environment: Reduces CO by 18.71 kg/year per panel
+• Equity: Model supports fair solar deployment planning
+• Show: Live prediction demo
+
+SLIDE 6: Ethical Considerations (30 seconds)
+• Geographic bias requires diverse training data
+• Must ensure equitable access to solar technology
+• Transparency through interpretable models
+
+SLIDE 7: Conclusion & Next Steps (30 seconds)
+• Achieved 62.4% prediction accuracy
+• Supports SDG 7 (Clean Energy) and SDG 13 (Climate Action)
+• Next: Real-time API, mobile app, expanded geographic coverage
